@@ -41,6 +41,3 @@ export function generateCorporateNumber(): string {
   // 最終的な法人番号を生成（チェックディジット + 12桁のランダム数字）
   return `${checkDigit}${random12Digits}`
 }
-
-// 使用例
-console.log(generateCorporateNumber())
